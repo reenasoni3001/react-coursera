@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Menu from "./menucomponent";
 import Dishdetail from "./DishdetailComponent";
 import Header from "./HeaderComponent";
+import Footer from './FooterComponent';
 import { DISHES } from "../shared/dishes";
 
 class Main extends Component {
@@ -33,6 +34,7 @@ class Main extends Component {
             )[0]
           }
         />
+        <Footer />
       </div>
     );
   }
